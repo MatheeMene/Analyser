@@ -144,7 +144,7 @@ function table_html(vetor_states) {
         td.css("background", "#ac58ca");
         td.css("color", "#fff");
       } else {
-        td.html("&");
+        td.html("$");
       }
       tr.append(td);
     }
